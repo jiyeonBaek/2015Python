@@ -127,4 +127,71 @@ IndexError: list assignment index out of range
 	
 >>> print(top3)
 [90, 85, 63]
+>>> is instance
+SyntaxError: invalid syntax
+>>> data=['a',['Hi','Hello'],'b']
+>>> for steps in range(3):
+	if isinstance(list)
+	
+SyntaxError: invalid syntax
+>>> for steps in data(3):
+	if isinstance(steps,list):
+		for step in steps:
+			print(step)
+	else:
+		print(steps)
+
+		
+Traceback (most recent call last):
+  File "<pyshell#78>", line 1, in <module>
+    for steps in data(3):
+TypeError: 'list' object is not callable
+>>> print(data)
+['a', ['Hi', 'Hello'], 'b']
+>>> for steps in data:
+	if isinstance(steps,list):
+		for step in steps:
+			print(step)
+	else:
+		print(steps)
+
+		
+a
+Hi
+Hello
+b
+>>> scores=[85,63,63,45,90]
+>>> scores.extend([50,60])
+>>> print(scores)
+[85, 63, 63, 45, 90, 50, 60]
+>>> scores.append([10,20])
+>>> print(scores)
+[85, 63, 63, 45, 90, 50, 60, [10, 20]]
+>>> scores.append(10,20)
+Traceback (most recent call last):
+  File "<pyshell#95>", line 1, in <module>
+    scores.append(10,20)
+TypeError: append() takes exactly one argument (2 given)
+>>> ssssssssss
+Traceback (most recent call last):
+  File "<pyshell#96>", line 1, in <module>
+    ssssssssss
+NameError: name 'ssssssssss' is not defined
+>>> data
+['a', ['Hi', 'Hello'], 'b']
+>>> t1=()
+>>> t2=(1,)
+>>> t3=(1,2,3)
+>>> t4=1,2,3
+>>> t5=('a','b',('ab','cd'))
+>>> t1
+()
+>>> t2
+(1,)
+>>> t3
+(1, 2, 3)
+>>> t4
+(1, 2, 3)
+>>> t5
+('a', 'b', ('ab', 'cd'))
 >>> 
