@@ -1,0 +1,21 @@
+﻿빌드 시작: 2015-11-24 오후 3:48:42
+     1>2 노드의 "C:\Users\IM-13\Documents\GitHub\201311216Python\ConsoleApplication3\ConsoleApplication3\ConsoleApplication3.vcxproj" 프로젝트(Build 대상)입니다.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt asdfasfdfsad.cpp
+         asdfasfdfsad.cpp
+     1>c:\users\im-13\documents\github\201311216python\consoleapplication3\consoleapplication3\asdfasfdfsad.cpp(6): error C2143: 구문 오류 : ';'이(가) '&' 앞에 없습니다.
+     1>c:\users\im-13\documents\github\201311216python\consoleapplication3\consoleapplication3\asdfasfdfsad.cpp(6): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+     1>c:\users\im-13\documents\github\201311216python\consoleapplication3\consoleapplication3\asdfasfdfsad.cpp(9): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+     1>c:\users\im-13\documents\github\201311216python\consoleapplication3\consoleapplication3\asdfasfdfsad.cpp(9): error C2143: 구문 오류 : ','이(가) '*' 앞에 없습니다.
+     1>c:\users\im-13\documents\github\201311216python\consoleapplication3\consoleapplication3\asdfasfdfsad.cpp(62): error C2511: 'void User::buy(const CellPhone *)' : 오버로드된 멤버 함수가 'User'에 없습니다.
+                 c:\users\im-13\documents\github\201311216python\consoleapplication3\consoleapplication3\asdfasfdfsad.cpp(3) : 'User' 선언을 참조하십시오.
+     1>c:\users\im-13\documents\github\201311216python\consoleapplication3\consoleapplication3\asdfasfdfsad.cpp(63): error C2065: 'm_cell' : 선언되지 않은 식별자입니다.
+     1>c:\users\im-13\documents\github\201311216python\consoleapplication3\consoleapplication3\asdfasfdfsad.cpp(71): error C2664: 'void User::buy(const int)' : 인수 1을(를) 'CellPhone *'에서 'const int'(으)로 변환할 수 없습니다.
+                 이 변환이 가능한 컨텍스트가 없습니다.
+     1>c:\users\im-13\documents\github\201311216python\consoleapplication3\consoleapplication3\asdfasfdfsad.cpp(72): error C2664: 'void User::buy(const int)' : 인수 1을(를) 'SmartPhone *'에서 'const int'(으)로 변환할 수 없습니다.
+                 이 변환이 가능한 컨텍스트가 없습니다.
+     1>"C:\Users\IM-13\Documents\GitHub\201311216Python\ConsoleApplication3\ConsoleApplication3\ConsoleApplication3.vcxproj" 프로젝트를 빌드했습니다(Build 대상). - 실패
+
+빌드하지 못했습니다.
+
+경과 시간: 00:00:00.76
